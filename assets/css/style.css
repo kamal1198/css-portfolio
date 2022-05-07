@@ -1,0 +1,28 @@
+a[href^="mailto"]::before {
+    content: "📧 ";
+}
+
+a[href^="tel"]::before {
+    content: "📞 ";
+}
+header {
+    background-color: skyblue;
+}
+.port {
+    display: grid;
+    background-color: bisque;
+}
+h1 {
+    background-color: bisque;
+    display: grid;
+    margin: 2px;
+    padding: 2px;
+    font-weight: 200px;
+    justify-content: center;
+}
+nav, ul, li {
+list-style-type: none;
+display: flex;
+justify-content: end;
+justify-content: space-between;
+}
