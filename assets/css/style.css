@@ -6,23 +6,24 @@ a[href^="tel"]::before {
     content: "📞 ";
 }
 header {
-    background-color: skyblue;
+    background-color: rgba(255, 192, 203, 0.685);
 }
 .port {
     display: grid;
-    background-color: bisque;
+    background-color: grey;
 }
 h1 {
-    background-color: bisque;
+    background-color: rgba(128, 128, 128, 0.419);
     display: grid;
     margin: 2px;
     padding: 2px;
     font-weight: 200px;
-    justify-content: center;
+    justify-content:flex-start;
 }
-nav, ul, li {
+nav {
 list-style-type: none;
 display: flex;
 justify-content: end;
-justify-content: space-between;
+justify-content:flex-end;
+background-color: rgba(255, 192, 203, 0.447);
 }
