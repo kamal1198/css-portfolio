@@ -8,17 +8,13 @@ a[href^="tel"]::before {
 header {
     background-color: rgba(255, 192, 203, 0.685);
 }
-.port {
-    display: grid;
-    background-color: grey;
-}
 h1 {
     background-color: rgba(128, 128, 128, 0.419);
     display: grid;
     margin: 2px;
     padding: 2px;
-    font-weight: 200px;
     justify-content:flex-start;
+    font-size: 60px;
 }
 nav {
 list-style-type: none;
@@ -26,4 +22,13 @@ display: flex;
 justify-content: end;
 justify-content:flex-end;
 background-color: rgba(255, 192, 203, 0.447);
+}
+a {
+    margin: 5px;
+}
+button {
+    background-color: darkblue;
+    padding: 2px;
+    margin: 2px;
+    width: 100%;
 }
