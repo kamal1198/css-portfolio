@@ -32,3 +32,48 @@ button {
     margin: 2px;
     width: 100%;
 }
+/* section {
+    height: 400px;
+    width: 80%;
+    margin: 20px auto;
+    border: 10px solid rgba(214, 125, 15, 0.498);
+  } */
+  
+  /* Relative positioning */
+  #relative-box {
+    position: relative;
+    left: 200px;
+  }
+  
+  /* Absolute positioning */
+  #absolute-section {
+    position: relative;
+  }
+  
+  #absolute-box {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+  }
+  
+  /* Fixed positioning */
+  #fixed-box {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  /* h2 {
+      background-color: peru;
+      width: 30%;
+      font-size: 20px;
+  } */
+  aside {
+      width: 25%;
+  }
+  #aboutme,#projects {
+      display: flex;
+  }
+  .row {
+      height: 200px;
+      
+  }
