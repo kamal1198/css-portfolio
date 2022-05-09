@@ -1,3 +1,11 @@
+.project {
+    border:solid 5px;
+    border-color: rgba(135, 207, 235, 0.496);
+    padding: 8px;
+    margin: 4px;
+    border-radius: 10px;
+    display: inline-block;
+}
 a[href^="mailto"]::before {
     content: "📧 ";
 }
@@ -9,12 +17,13 @@ header {
     background-color: rgba(255, 192, 203, 0.685);
 }
 h1 {
-    background-color: rgba(128, 128, 128, 0.419);
     display: grid;
     margin: 2px;
     padding: 2px;
     justify-content:flex-start;
     font-size: 60px;
+    position: relative;
+    top: 10px;
 }
 nav {
 list-style-type: none;
@@ -26,42 +35,10 @@ background-color: rgba(255, 192, 203, 0.447);
 a {
     margin: 5px;
 }
-button {
-    background-color: darkblue;
-    padding: 2px;
-    margin: 2px;
-    width: 100%;
-}
-/* Relative positioning */
-#relative-box {
-    position: relative;
-    left: 200px;
-  }
-  
-  /* Absolute positioning */
-  #absolute-section {
-    position: relative;
-  }
-  
-  #absolute-box {
-    position: absolute;
-    top: 50px;
-    right: 100px;
-  }
-  
-  /* Fixed positioning */
-  #fixed-box {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-  }
-  /* h2 {
-      background-color: peru;
-      width: 30%;
-      font-size: 20px;
-  } */
   aside {
       width: 25%;
+      position: relative;
+      nav-right: 10px;
   }
   #aboutme,#projects {
       display: flex;
@@ -70,16 +47,12 @@ button {
       height: 200px;
       display: block;
   }
-  * {
-box sizing: border-box;
+ 
+  @media screen and (min-width:650px){
   }
-  .column {
-float: left;
-width: 33.33%;
-padding: 5px;
-  }
-  .row::after {
-      content:"";
-      display: table;
-      clear: both;
-  }
+ button {
+     padding: 6px;
+     margin: 40px;
+     background-color: lavender;
+     border-color: lavenderblush;
+ }
