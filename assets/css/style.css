@@ -1,10 +1,5 @@
-.project {
-    border:solid 5px;
-    border-color: rgba(135, 207, 235, 0.496);
-    padding: 8px;
-    margin: 4px;
-    border-radius: 10px;
-    display: inline-block;
+* {
+    scroll-behavior: smooth;
 }
 a[href^="mailto"]::before {
     content: "📧 ";
@@ -30,7 +25,7 @@ h1 {
     height: 12%;
     display: flex;
     align-items: center;
-    background-color:gray;
+    background-color:rgba(2, 42, 2, 0.881);
 }
 
 .class {
@@ -51,14 +46,6 @@ nav ul li a {
     color: aliceblue;
     font-size: 15px;
 }
-/* nav {
-list-style-type: none;
-display: flex;
-justify-content: end;
-justify-content:flex-end;
-background-color: rgba(255, 192, 203, 0.447);
-scroll:aut
-} */
 a {
     margin: 5px;
 }
@@ -74,12 +61,46 @@ a {
       height: 200px;
       display: block;
   }
- 
-  @media screen and (min-width:650px){
+  .card{
+      width: 200px;
+      height: 230px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      box-sizing: border-box;
+      cursor: pointer;
+      margin: 10px;
+      background-position: center;
+      background-size: cover;
+     transition:0.5;
   }
- button {
-     padding: 6px;
-     margin: 40px;
-     background-color: lavender;
-     border-color: lavenderblush;
- }
+.card:hover{
+    transform: translate(-12px);
+}
+h5 {
+    color: white;
+    background-color: rgba(246, 148, 57, 0.75);
+    margin: 5px;
+    padding: 5px;
+    height: 50px;
+    width: 100px;
+}
+.card1 {
+    background-image: url(https://media.wired.com/photos/5cc244c9af643e2f373ebb28/191:100/w_2400,h_1256,c_limit/Coding-Becomes-Criminal.jpg);
+}
+.card2 {
+    background-image: url(https://www.propatel.com/wp-content/uploads/2019/09/coding-and-testing-programming-of-software.jpg);
+}
+.card3 {
+    background-image: url(https://media.nature.com/lw800/magazine-assets/d41586-019-00653-5/d41586-019-00653-5_16459152.jpg);
+}
+.card4 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNYB9ksn5JJKKreuwmKjngQ79D-zTH50igvQ&usqp=CAU);
+}
+.card5 {
+    background-image: url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1148960878?k=20&m=1148960878&s=612x612&w=0&h=hQPb6xQeOiyDha0phIRKi3CGZp5z0iJFPQ-DJd2ow5A=);
+}
+@media  screen and(max-width:992px)
+head,body, {
+    
+}
