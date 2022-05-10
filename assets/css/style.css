@@ -25,13 +25,28 @@ h1 {
     position: relative;
     top: 10px;
 }
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.class {
+    width: 50px;
+    cursor: pointer;
+}
 nav {
+    flex:1;
+    text-align: right;
+}
+/* nav {
 list-style-type: none;
 display: flex;
 justify-content: end;
 justify-content:flex-end;
 background-color: rgba(255, 192, 203, 0.447);
-}
+scroll:aut
+} */
 a {
     margin: 5px;
 }
