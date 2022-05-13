@@ -72,6 +72,7 @@ a {
       background-position: center;
       background-size: cover;
      transition:0.5;
+   justify-content: center;
   }
 .card:hover{
     transform: translate(-12px);
@@ -82,23 +83,43 @@ h5 {
     margin: 5px;
     padding: 5px;
     height: 50px;
-    width: 100px;
+    width: 150px;
 }
 .card1 {
     background-image: url(https://media.wired.com/photos/5cc244c9af643e2f373ebb28/191:100/w_2400,h_1256,c_limit/Coding-Becomes-Criminal.jpg);
+   height: 300px;
+   width: 1400px;
 }
 .card2 {
     background-image: url(https://www.propatel.com/wp-content/uploads/2019/09/coding-and-testing-programming-of-software.jpg);
+    height: 300px;
+    width: 330px;
 }
 .card3 {
     background-image: url(https://media.nature.com/lw800/magazine-assets/d41586-019-00653-5/d41586-019-00653-5_16459152.jpg);
+    height: 300px;
+    width: 330px;
 }
 .card4 {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNYB9ksn5JJKKreuwmKjngQ79D-zTH50igvQ&usqp=CAU);
+    height: 300px;
+    width: 330px; 
 }
 .card5 {
     background-image: url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1148960878?k=20&m=1148960878&s=612x612&w=0&h=hQPb6xQeOiyDha0phIRKi3CGZp5z0iJFPQ-DJd2ow5A=);
+    height: 300px;
+    width: 330px;
 }
-@media  screen and(max-width:992px) {
-    
+@media screen and (max-width: 768px) {
+    header,
+    main {
+        flex-direction: column;
+    }
+    .card1 {
+        width: 330px;
+    }
+    aside {
+        width: 100%;
+        text-align: center;
+    }
 }
